@@ -5,7 +5,7 @@ def func_callback(txt):
 def func_call(path, func):
     f = open(path,'r')
     length = len(f.read())
-    f.close()
+    f.close()##
     func(length)
     return
 
